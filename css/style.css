@@ -28,25 +28,12 @@ li {
 }
 
 /* Estilos para botões hover */
-#github:hover{
+#github:hover, #CV:hover, #youtube:hover, #website:hover {
     background-color: #000000;
     color: #ffffff;
 }
 
-#CV:hover{
-    background-color: #000000;
-    color: #ffffff;
-}
 
-#youtube:hover{
-    background-color: #000000;
-    color: #ffffff;
-}
-
-#website:hover{
-    background-color: #000000;
-    color: #ffffff;
-}
 
 /* Estilos específicos para diferentes tamanhos de tela */
 @media screen and (max-width: 1440px) {
@@ -56,6 +43,12 @@ li {
         object-fit: cover;
         margin-top: 2em;
         margin-bottom: 4.5em;
+    }
+
+    /* Estilos para botões hover */
+    #github:hover, #CV:hover, #youtube:hover, #website:hover {
+        background-color: #000000;
+        color: #ffffff;
     }
 
     #titulo {
