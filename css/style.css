@@ -27,14 +27,6 @@ li {
     font-size: 12px;
 }
 
-/* Estilos para botões hover */
-#github:hover, #CV:hover, #youtube:hover, #website:hover {
-    background-color: #000000;
-    color: #ffffff;
-}
-
-
-
 /* Estilos específicos para diferentes tamanhos de tela */
 @media screen and (max-width: 1440px) {
     img {
