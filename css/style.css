@@ -79,6 +79,124 @@
     }
 }
 
+@media screen and (max-width: 320px) {
+    *{
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        max-width: 100%;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    img{
+        width: 30%;
+        border-radius: 80%;
+        object-fit: cover;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+    
+    a{
+        text-decoration: none;
+        color: #eeeeee;
+    }
+    
+    #titulo{
+        height: 3em;
+        font-size: 8px;
+        font-weight: 500;
+        margin-bottom: 7em;
+        font-size: 12px;
+    }
+    
+    li{
+        list-style: none;
+    }
+    
+    #linktree{
+        margin-left: 23%;
+        margin-top: 17%;
+    }
+    
+    #github{
+        border: 1px solid white;
+        width: 70%;
+        height: 2em;
+        color: #cccccc;
+        background-color: #004f4f;
+        border-radius: 0.5em;
+        margin-bottom: 1em;
+        font-size: 12px;
+    }
+
+    #CV{
+        border: 1px solid white;
+        width: 70%;
+        height: 2em;
+        color: #cccccc;
+        background-color: #004f4f;
+        border-radius: 0.5em;
+        margin-bottom: 1em;
+        font-size: 12px;
+    }
+
+    #youtube{
+        border: 1px solid white;
+        width: 70%;
+        height: 2em;
+        color: #cccccc;
+        background-color: #004f4f;
+        border-radius: 0.5em;
+        margin-bottom: 1em;
+        font-size: 12px;
+    }
+
+    #website{
+        border: 1px solid white;
+        width: 70%;
+        height: 2em;
+        color: #cccccc;
+        background-color: #004f4f;
+        border-radius: 0.5em;
+        margin-bottom: 1em;
+        font-size: 12px;
+    }
+    
+    #github:hover{
+        background-color: #000000; 
+        color: #ffffff;
+    }
+    
+    #CV:hover{
+        background-color: #000000;
+        color: #ffffff;
+    }
+    
+    #youtube:hover{
+        background-color: #000000;
+        color: #ffffff;
+    }
+    
+    #website:hover{
+        background-color: #000000;
+        color: #ffffff;
+    }
+    
+    body{
+        height: 62em;
+        background-color: #161616;
+    }
+    
+    h1{
+        color: #eeeeee;
+        font-weight: 500;
+        text-decoration: underline;
+    }
+}
+
+
 
 @media screen and (max-width:375px) {
     *{
@@ -108,6 +226,7 @@
         height: 3em;
         font-size: 8px;
         font-weight: 500;
+        margin-bottom: 7em;
     }
     
     li{
@@ -190,6 +309,7 @@
         height: 3em;
         font-size: 8px;
         font-weight: 500;
+        margin-bottom: 8em;
     }
     
     li{
