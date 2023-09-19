@@ -28,7 +28,22 @@ li {
 }
 
 /* Estilos para botões hover */
-#github:hover, #CV:hover, #youtube:hover, #website:hover {
+#github:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#CV:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#youtube:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#website:hover{
     background-color: #000000;
     color: #ffffff;
 }
