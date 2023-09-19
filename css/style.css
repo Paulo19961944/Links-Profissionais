@@ -1,446 +1,200 @@
+/* Estilos globais comuns */
+* {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #eeeeee;
+}
+
+li {
+    list-style: none;
+}
+
+/* Estilos comuns para os botões */
+#github, #CV, #youtube, #website {
+    border: 1px solid white;
+    width: 40%; /* Pode ser ajustado conforme necessário */
+    height: 2em;
+    color: #cccccc;
+    background-color: #004f4f;
+    border-radius: 0.5em;
+    margin-bottom: 1em;
+    font-size: 12px;
+}
+
+/* Estilos para botões hover */
+#github:hover, #CV:hover, #youtube:hover, #website:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* Estilos específicos para diferentes tamanhos de tela */
 @media screen and (max-width: 1440px) {
-    *{
-        padding: 0;
-        margin: 0;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        max-width: 100%;
-        font-family: 'Open Sans', sans-serif;
-    }
-    
-    img{
+    img {
         width: 10%;
         border-radius: 80%;
         object-fit: cover;
         margin-top: 2em;
         margin-bottom: 4.5em;
     }
-    
-    a{
-        text-decoration: none;
-        color: #eeeeee;
-    }
-    
-    #titulo{
+
+    #titulo {
         height: 3em;
         font-size: 12px;
         font-weight: 500;
     }
-    
-    li{
-        list-style: none;
-    }
-    
-    #linktree{
+
+    #linktree {
         margin-left: 36.5%;
         margin-top: 5%;
     }
-    
-    #github, #CV, #youtube, #website{
-        border: 1px solid white;
-        width: 40%;
-        height: 2em;
-        color: #cccccc;
-        background-color: #004f4f;
-        border-radius: 0.5em;
-        margin-bottom: 1em;
-    }
-    
-    #github:hover{
-        background-color: #001f1f; 
-        color: #ffffff;
-    }
-    
-    #CV:hover{
-        background-color: #001f1f; 
-        color: #ffffff;
-    }
-    
-    #youtube:hover{
-        background-color: #001f1f; 
-        color: #ffffff;
-    }
-    
-    #website:hover{
-        background-color: #001f1f; 
-        color: #ffffff;
-    }
-    
-    body{
+
+    body {
         height: 62em;
         background-color: #161616;
     }
-    
-    h1{
+
+    h1 {
         color: #eeeeee;
         font-weight: 500;
         text-decoration: underline;
     }
 }
 
+/* Estilos para tela com largura máxima de 320px */
 @media screen and (max-width: 320px) {
-    *{
-        padding: 0;
-        margin: 0;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        max-width: 100%;
-        font-family: 'Open Sans', sans-serif;
-    }
-    
-    img{
+    img {
         width: 30%;
         border-radius: 80%;
         object-fit: cover;
         margin-top: 2em;
         margin-bottom: 2em;
     }
-    
-    a{
-        text-decoration: none;
-        color: #eeeeee;
-    }
-    
-    #titulo{
+
+    #titulo {
         height: 3em;
         font-size: 8px;
         font-weight: 500;
         margin-bottom: 7em;
-        font-size: 12px;
     }
-    
-    li{
-        list-style: none;
-    }
-    
-    #linktree{
+
+    #linktree {
         margin-left: 23%;
         margin-top: 17%;
     }
-    
-    #github{
-        border: 1px solid white;
+
+    #github, #CV, #youtube, #website {
         width: 70%;
-        height: 2em;
-        color: #cccccc;
-        background-color: #004f4f;
-        border-radius: 0.5em;
-        margin-bottom: 1em;
-        font-size: 12px;
     }
 
-    #CV{
-        border: 1px solid white;
-        width: 70%;
-        height: 2em;
-        color: #cccccc;
-        background-color: #004f4f;
-        border-radius: 0.5em;
-        margin-bottom: 1em;
-        font-size: 12px;
-    }
-
-    #youtube{
-        border: 1px solid white;
-        width: 70%;
-        height: 2em;
-        color: #cccccc;
-        background-color: #004f4f;
-        border-radius: 0.5em;
-        margin-bottom: 1em;
-        font-size: 12px;
-    }
-
-    #website{
-        border: 1px solid white;
-        width: 70%;
-        height: 2em;
-        color: #cccccc;
-        background-color: #004f4f;
-        border-radius: 0.5em;
-        margin-bottom: 1em;
-        font-size: 12px;
-    }
-    
-    #github:hover{
-        background-color: #000000; 
-        color: #ffffff;
-    }
-    
-    #CV:hover{
-        background-color: #000000;
-        color: #ffffff;
-    }
-    
-    #youtube:hover{
-        background-color: #000000;
-        color: #ffffff;
-    }
-    
-    #website:hover{
-        background-color: #000000;
-        color: #ffffff;
-    }
-    
-    body{
+    body {
         height: 62em;
         background-color: #161616;
     }
-    
-    h1{
-        color: #eeeeee;
-        font-weight: 500;
-        text-decoration: underline;
-    }
 }
 
-
-
-@media screen and (max-width:375px) {
-    *{
-        padding: 0;
-        margin: 0;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        max-width: 100%;
-        font-family: 'Open Sans', sans-serif;
-    }
-    
-    img{
+/* Estilos para tela com largura máxima de 375px */
+@media screen and (max-width: 375px) {
+    img {
         width: 30%;
         border-radius: 80%;
         object-fit: cover;
         margin-top: 2em;
         margin-bottom: 2em;
     }
-    
-    a{
-        text-decoration: none;
-        color: #eeeeee;
-    }
-    
-    #titulo{
+
+    #titulo {
         height: 3em;
         font-size: 8px;
         font-weight: 500;
         margin-bottom: 7em;
     }
-    
-    li{
-        list-style: none;
-    }
-    
-    #linktree{
+
+    #linktree {
         margin-left: 23%;
         margin-top: 17%;
     }
-    
-    #github, #CV, #youtube, #website{
-        border: 1px solid white;
+
+    #github, #CV, #youtube, #website {
         width: 70%;
-        height: 2em;
-        color: #cccccc;
-        background-color: #004f4f;
-        border-radius: 0.5em;
-        margin-bottom: 1em;
-        font-size: 12px;
     }
-    
-    #github:hover{
-        background-color: #000000; 
-        color: #ffffff;
-    }
-    
-    #CV:hover{
-        background-color: #000000;
-        color: #ffffff;
-    }
-    
-    #youtube:hover{
-        background-color: #000000;
-        color: #ffffff;
-    }
-    
-    #website:hover{
-        background-color: #000000;
-        color: #ffffff;
-    }
-    
-    body{
+
+    body {
         height: 62em;
         background-color: #161616;
     }
-    
-    h1{
-        color: #eeeeee;
-        font-weight: 500;
-        text-decoration: underline;
-    }
 }
 
-@media screen and (max-width:425px) {
-    *{
-        padding: 0;
-        margin: 0;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        max-width: 100%;
-        font-family: 'Open Sans', sans-serif;
-    }
-    
-    img{
+/* Estilos para tela com largura máxima de 425px */
+@media screen and (max-width: 425px) {
+    img {
         width: 30%;
         border-radius: 80%;
         object-fit: cover;
         margin-top: 2em;
-        margin-bottom: 2.5em;
+        margin-bottom: 2em;
     }
-    
-    a{
-        text-decoration: none;
-        color: #eeeeee;
-    }
-    
-    #titulo{
+
+    #titulo {
         height: 3em;
         font-size: 8px;
         font-weight: 500;
-        margin-bottom: 8em;
+        margin-bottom: 7em;
     }
-    
-    li{
-        list-style: none;
-    }
-    
-    #linktree{
+
+    #linktree {
         margin-left: 23%;
         margin-top: 17%;
     }
-    
-    #github, #CV, #youtube, #website{
-        border: 1px solid white;
+
+    #github, #CV, #youtube, #website {
         width: 70%;
-        height: 2em;
-        color: #cccccc;
-        background-color: #004f4f;
-        border-radius: 0.5em;
-        margin-bottom: 1em;
-        font-size: 12px;
     }
-    
-    #github:hover{
-        background-color: #000000; 
-        color: #ffffff;
-    }
-    
-    #CV:hover{
-        background-color: #000000;
-        color: #ffffff;
-    }
-    
-    #youtube:hover{
-        background-color: #000000;
-        color: #ffffff;
-    }
-    
-    #website:hover{
-        background-color: #000000;
-        color: #ffffff;
-    }
-    
-    body{
+
+    body {
         height: 62em;
         background-color: #161616;
     }
-    
-    h1{
-        color: #eeeeee;
-        font-weight: 500;
-        text-decoration: underline;
-    }
 }
 
-@media screen and (max-width:768px) {
-    *{
-        padding: 0;
-        margin: 0;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        max-width: 100%;
-        font-family: 'Open Sans', sans-serif;
-    }
-    
-    img{
+/* Estilos para tela com largura máxima de 768px */
+@media screen and (max-width: 768px) {
+    img {
         width: 10%;
         border-radius: 80%;
         object-fit: cover;
         margin-top: 2em;
         margin-bottom: 3.5em;
     }
-    
-    a{
-        text-decoration: none;
-        color: #eeeeee;
-    }
-    
-    #titulo{
+
+    #titulo {
         height: 3em;
         font-size: 12px;
         font-weight: 500;
     }
-    
-    li{
-        list-style: none;
-    }
-    
-    #linktree{
+
+    #linktree {
         margin-left: 28%;
         margin-top: 8%;
     }
-    
-    #github, #CV, #youtube, #website{
-        border: 1px solid white;
+
+    #github, #CV, #youtube, #website {
         width: 60%;
-        height: 2em;
-        color: #cccccc;
-        background-color: #004f4f;
-        border-radius: 0.5em;
-        margin-bottom: 1em;
     }
-    
-    #github:hover{
-        background-color: #000000; 
-        color: #ffffff;
-    }
-    
-    #CV:hover{
-        background-color: #000000;
-        color: #ffffff;
-    }
-    
-    #youtube:hover{
-        background-color: #000000;
-        color: #ffffff;
-    }
-    
-    #website:hover{
-        background-color: #000000;
-        color: #ffffff;
-    }
-    
-    body{
+
+    body {
         height: 62em;
         background-color: #161616;
     }
-    
-    h1{
+
+    h1 {
         color: #eeeeee;
         font-weight: 500;
         text-decoration: underline;
-    }   
+    }
 }
