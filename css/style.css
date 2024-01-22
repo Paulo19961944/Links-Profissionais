@@ -6,207 +6,149 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-a {
-    text-decoration: none;
-    color: #eeeeee;
-    cursor: pointer;
-    padding: 0.5em 1em;
+img {
+    width: 250px;
+    border-radius: 50%;
+    margin-bottom: 32px;
+}
+
+body {
+    background: linear-gradient(180deg, #5aa1db, #9dca76);
+    color: #f0f0f0;
+    width: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+main {
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    border: 2px solid white;
+    border-radius: 16px;
+    margin: 36px 0px;
+    padding: 48px;
 }
 
 li {
     list-style: none;
 }
 
-/* Estilos comuns para os botões */
-#github, #CV, #youtube, #website {
-    border: 1px solid white;
-    width: 40%; /* Pode ser ajustado conforme necessário */
-    height: 2em;
-    color: #cccccc;
-    background-color: #004f4f;
-    border-radius: 0.5em;
-    margin-bottom: 1em;
-    font-size: 12px;
+#linktree {
+    width: 70%;
+    padding: 32px;
+    margin: 32px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-/* Estilos específicos para diferentes tamanhos de tela */
-@media screen and (max-width: 1440px) {
-    img {
-        width: 10%;
-        border-radius: 80%;
-        object-fit: cover;
-        margin-top: 2em;
-        margin-bottom: 4.5em;
-    }
-
-    /* Estilos para botões hover */
-    #github:hover, #CV:hover, #youtube:hover, #website:hover {
-        background-color: #000000;
-        color: #ffffff;
-    }
-
-    #titulo {
-        height: 3em;
-        font-size: 12px;
-        font-weight: 500;
-    }
-
-    #linktree {
-        margin-left: 36.5%;
-        margin-top: 5%;
-    }
-
-    #github, #CV, #youtube, #website{
-        font-size: 16px;
-    }
-
-    body {
-        height: 62em;
-        background-color: #161616;
-    }
-
-    h1 {
-        color: #eeeeee;
-        font-weight: 500;
-        text-decoration: underline;
-        font-size: 24px;
-    }
+button {
+    background-color: rgba(94, 173, 49, 0.92);
+    border: 1.5px solid white;
+    margin: 6px 0px;
+    padding: 10px 24px;
+    border-radius: 4px;
+    font-size: 14px;
 }
 
-/* Estilos para tela com largura máxima de 320px */
-@media screen and (max-width: 320px) {
-    img {
-        width: 60%;
-        border-radius: 80%;
-        object-fit: cover;
-        margin-top: 2em;
-        margin-bottom: 2em;
-    }
 
-    #titulo {
-        height: 3em;
-        font-size: 8px;
-        font-weight: 500;
-        margin-bottom: 7em;
-    }
-
-    #linktree {
-        margin-left: 23%;
-        margin-top: 17%;
-        padding: 1em; 
-        font-size: 12px; 
-    }
-
-    #github, #CV, #youtube, #website {
-        width: 70%;
-        font-size: 12px;
-    }
-
-    body {
-        height: 62em;
-        background-color: #161616;
-    }
+button:hover {
+    background-color: #5ead65;
 }
 
-/* Estilos para tela com largura máxima de 375px */
-@media screen and (max-width: 375px) {
-    img {
-        width: 60%;
-        border-radius: 80%;
-        object-fit: cover;
-        margin-top: 2em;
-        margin-bottom: 2em;
-    }
 
-    #titulo {
-        height: 3em;
-        font-size: 8px;
-        font-weight: 500;
-        margin-bottom: 7em;
-    }
-
-    #linktree {
-        margin-left: 23%;
-        margin-top: 17%;
-    }
-
-    #github, #CV, #youtube, #website {
-        width: 70%;
-        font-size: 8px;
-    }
-
-    body {
-        height: 62em;
-        background-color: #161616;
-    }
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
 }
 
-/* Estilos para tela com largura máxima de 425px */
-@media screen and (max-width: 425px) {
-    img {
-        width: 60%;
-        border-radius: 80%;
-        object-fit: cover;
-        margin-top: 2em;
-        margin-bottom: 2em;
-    }
-
-    #titulo {
-        height: 3em;
-        font-size: 8px;
-        font-weight: 500;
-        margin-bottom: 7em;
-    }
-
-    #linktree {
-        margin-left: 23%;
-        margin-top: 17%;
-    }
-
-    #github, #CV, #youtube, #website {
-        width: 70%;
-        font-size: 8px;
-    }
-
-    body {
-        height: 62em;
-        background-color: #161616;
-    }
+a:hover {
+    text-decoration: underline;
 }
 
-/* Estilos para tela com largura máxima de 768px */
 @media screen and (max-width: 768px) {
-    img {
-        width: 10%;
-        border-radius: 80%;
-        object-fit: cover;
-        margin-top: 2em;
-        margin-bottom: 3.5em;
+    h1 {
+        font-size: 28px;
     }
 
-    #titulo {
-        height: 3em;
+    img {
+        width: 150px;
+    }
+
+    button {
         font-size: 12px;
-        font-weight: 500;
+        padding: 8px 16px;
+    }
+
+    main {
+        max-width: 60%;
+    }
+}
+
+@media screen and (max-width: 569px) {
+    h1 {
+        font-size: 22px;
+    }
+
+    img {
+        width: 120px;
+    }
+
+    button {
+        padding: 6px;
+    }
+
+    a {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 461px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    button {
+        padding: 6px 14px;
+    }
+
+    a {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 383px) {
+    h1 {
+        font-size: 18px;
+    }
+
+    button {
+        padding: 4px 8px;
+    }
+
+    a {
+        font-size: 8px;
     }
 
     #linktree {
-        margin-left: 28%;
-        margin-top: 8%;
+        margin: 16px 0px;
     }
+}
 
-    #github, #CV, #youtube, #website {
-        width: 60%;
-    }
-
-    body {
-        height: 62em;
-        background-color: #161616;
-    }
-
-    h1 {
-        color: #eeeeee;
-        font-weight: 500;
-        text-decoration: underline;
+@media screen and (min-width: 1440px) {
+    main {
+        padding: 72px;
     }
 }
