@@ -11874,7 +11874,7 @@ body {
   border-radius: 16px;
   width: 90vw;
   height: 420px;
-  background-color: #fafafa; /* Adicionar cor de fundo se necessário */
+  background-color: #fafafa; /* Adicionar cor de fundo - Branca */
   z-index: 2;
 }
 
@@ -11915,6 +11915,7 @@ p, a {
 }
 
 .fa-github-square, .fa-youtube-square, .fa-behance-square {
+  font-size: 1rem;
   margin-left: 16px;
 }
 
